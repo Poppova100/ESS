@@ -89,9 +89,6 @@ This repository provides R scripts and datasets for analyzing and visualizing th
 
 ---
 
-## References
-
-- Stryhal, J. (2025).  
 - Lhotka, O. (2025).  
 - Poppová, Z., et al. (Year). *Climatological characteristics and atmospheric circulation associated with 3D heat wave types in Middle Europe*. [Journal Name]
 
