@@ -64,7 +64,7 @@ This repository provides R scripts and datasets for analyzing and visualizing th
   - **Other:** W, CW, AW, E, CE, AE, ANE, CNE, NE, N, CN, AN, ANW, CNW, NW, C
 
 - **dat2_prob_before.rds**, **dat2_prob_during.rds**, **dat2_prob_after.rds**  
-  Frequencies of circulation types (Stryhal, 2025) grouped as:
+  Frequencies of circulation types grouped as:
   - A, C, U (indeterminate)
   - S (S, CS, AS)
   - N (N, CN, AN)
@@ -86,11 +86,6 @@ This repository provides R scripts and datasets for analyzing and visualizing th
 
 - **klima.rds**  
   Mean daily temperature for the June–September season.
-
----
-
-- Lhotka, O. (2025).  
-- Poppová, Z., et al. (Year). *Climatological characteristics and atmospheric circulation associated with 3D heat wave types in Middle Europe*. [Journal Name]
 
 ---
 
