@@ -29,6 +29,9 @@ This repository provides R scripts and datasets for analyzing and visualizing th
 - **multiple_pie.R**  
   Visualizes the frequencies (%) of all-anticyclonic, all-cyclonic, purely-directional, and indeterminate circulation types for three days before, during, and after heat waves.
 
+- **multiple_pie2.R**  
+  Revised multiple_pie.R
+
 - **pie_4.R**  
   Shows the frequencies (%) of anticyclonic types, types with southerly advection, indeterminate flow, and all other circulation types during individual heat wave types.
 
