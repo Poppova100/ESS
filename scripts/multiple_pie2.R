@@ -22,7 +22,7 @@ dat_all <- bind_rows(dat_before, dat_during, dat_after)
 # --- Ensure factor ordering ---
 dat_all <- dat_all %>%
   mutate(
-    Prob = factor(Prob, levels = c("HWG", "HWL", "HWH", "HWO")),
+    Prob = factor(Prob, levels = c("HWO", "HWH", "HWL", "HWG")),
     Period = factor(Period, levels = c("BEFORE", "DURING", "AFTER")),
     CT = factor(CT)    # circulation type
   )
@@ -41,7 +41,7 @@ final2 <- ggplot(dat_all_complete, aes(x = "", y = Value, fill = CT)) +
   geom_col() +   # thin white separators (subtle, not long black lines)
   geom_text(aes(label = ifelse(Value == 0, "", sprintf("%.1f", Value))),
             position = position_stack(vjust = 0.5),
-            color = 'black', size = 6, nudge_x = 0.12) +   # small outward shift for readability
+            color = 'black', size = 6) + # small outward shift for readability
   coord_polar(theta = "y") +
   facet_grid(Prob ~ Period, switch = "y",
              labeller = labeller(Period = c(BEFORE = "a", DURING = "b", AFTER = "c"))) +
